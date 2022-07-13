@@ -1,0 +1,44 @@
+en:
+  helper:
+    application_helper:
+      base_title: "Program teach how to using Rails"
+  static_pages:
+    home:
+      title: "Sample App"
+      provide_title: "Main Page"
+      main_page_first: "This is the homepage for the"
+      main_page_last: "Sample App"
+      rails_href: "registration tutorial"
+      button_title: "Register now!"
+      welcome: "Welcome to Sample App"
+      sign_up: "Sign up now!"
+    help:
+      help: "Help"
+      provide_title: "Help"
+      main_page_first: "Receive some help about"
+      main_page_last: "To get help about this sample application, please see"
+      rails_help: "Rails Help Guide"
+      rails_book: "Ruby on Rails Guidebook"
+    contact:
+      contact: "Contact"
+      contact_content: "More information, contact us"
+      contact_target: "Contact page"
+  users:
+    new:
+        new_title: "Signup"
+        new_header: "Register Form"
+        new_content: "Comming soon!!!"
+        new_signup: "This will be a signup page for new users"
+  layouts:
+    header:
+      title: "Sample App"
+      home: "Main page"
+      help: "Help"
+      login: "Login"
+    application:
+      base_title: "Program teach how to using Rails"
+    footr:
+      footer_info: "Ruby on Rails Tutorial"
+      about: "About"
+      contact: "Contact"
+      news: "News"

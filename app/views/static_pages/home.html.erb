@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title><%= provide :title, t("static_pages.home.provide_title") %></title>
+</head>
+
+<body>
+  <div class="center jumbotron">
+    <h1><%= t(".welcome") %></h1>
+    <h2>
+      <%= t(".main_page_first") %>
+      <a href="http://www.railstutorial.org/"><%= t(".rails_href") %></a>
+      <%= t(".main_page_last") %>
+    </h2>
+    <%= link_to t(".sign_up"), signup_path, class: "btn btn-lg btn-primary" %>
+  </div>
+  <%= link_to image_tag("rails.svg", alt: "Rails logo", width: "200px"), "https://rubyonrails.org/" %>
+
+</body>
+</html>
