@@ -37,8 +37,9 @@ en:
       login: "Login"
     application:
       base_title: "Program teach how to using Rails"
-    footr:
+    footer:
       footer_info: "Ruby on Rails Tutorial"
       about: "About"
       contact: "Contact"
       news: "News"
+      author: Micheal Hartl

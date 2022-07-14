@@ -49,3 +49,5 @@ test/*
 config/settings.local.yml
 config/settings/*.local.yml
 config/environments/*.local.yml
+app/helpers/static_pages_helper.rb
+app/helpers/users_helper.rb

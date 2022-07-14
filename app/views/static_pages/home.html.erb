@@ -6,15 +6,15 @@
 
 <body>
   <div class="center jumbotron">
-    <h1><%= t(".welcome") %></h1>
+    <h1><%= t ".welcome" %></h1>
     <h2>
-      <%= t(".main_page_first") %>
-      <a href="http://www.railstutorial.org/"><%= t(".rails_href") %></a>
-      <%= t(".main_page_last") %>
+      <%= t".main_page_first" %>
+      <%= link_to t(".rails_href"), Settings.home.tutorial_rails, target: :_blank %>
+      <%= t".main_page_last" %>
     </h2>
     <%= link_to t(".sign_up"), signup_path, class: "btn btn-lg btn-primary" %>
   </div>
-  <%= link_to image_tag("rails.svg", alt: "Rails logo", width: "200px"), "https://rubyonrails.org/" %>
+  <%= link_to image_tag("rails.svg", alt: "Rails logo", width: "200px"), Settings.home.tutorial_ruby_on_rails %>
 
 </body>
 </html>
