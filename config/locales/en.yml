@@ -133,6 +133,8 @@ en:
     update:
       cant_empty: "Can't be empty"
       has_reset: "Password has been reset."
+      reset_failed: "Reset password failed"
     edit:
       confirm: "Confirmation"
       update: "Update password"
+      reset_password: "Reset password"

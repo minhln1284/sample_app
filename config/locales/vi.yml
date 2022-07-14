@@ -133,6 +133,8 @@ vi:
     update:
       cant_empty: "Không được để trống"
       has_reset: "Mật khẩu đã được reset"
+      reset_failed: "Không thể cập nhật mật khẩu"
     edit:
       confirm: "Xác nhận"
       update: "Cập nhật mật khẩu"
+      reset_password: "Reset mật khẩu"
