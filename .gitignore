@@ -47,3 +47,4 @@ config/credentials.yml.enc
 test/*
 
 config/application.yml
+storage/*

@@ -24,6 +24,10 @@ en:
       contact_content: "More information, contact us"
       contact_target: "Contact page"
   users:
+    following:
+      following: "Following"
+    followers:
+      followers: "Followers"
     form:
       new_title: "Signup"
       new_header: "Register Form"
@@ -43,6 +47,7 @@ en:
       new_title: "Signup"
     show:
       alert_not_found: "Can't find user, new? Signup now!"
+      micropost: "Micropost "
     edit:
       edit_user: "Edit user"
       edit_info: "Edit your account info"
@@ -91,6 +96,12 @@ en:
     error_messages:
       form_contain: "This form contains "
       error: " error"
+    user_info:
+      view_profile: "view my profile"
+      micropost: "micropost"
+    micropost_form:
+      compose: "Compose new micropost..."
+      post: "Post"
   sessions:
     new:
       log_in: "Log in"
@@ -138,3 +149,14 @@ en:
       confirm: "Confirmation"
       update: "Update password"
       reset_password: "Reset password"
+  microposts:
+    create:
+      created: "Micropost created!"
+    destroy:
+      deleted: "Micropost deleted"
+      delete_failed: "Deletion failed"
+    micropost:
+      posted: "Posted "
+      ago: " ago"
+      delete: "delete"
+      sure: "You sure?"

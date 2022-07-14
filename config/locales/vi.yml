@@ -24,6 +24,10 @@ vi:
       contact_content: "Để có thêm thông tin, liên hệ tới"
       contact_target: "trang web tutorial"
   users:
+    following:
+      following: "Đang theo dõi"
+    followers:
+      followers: "Người theo dõi"
     form:
       new_title: "Đăng ký"
       new_header: "Form đăng ký"
@@ -42,7 +46,8 @@ vi:
       create_account: "Tạo tài khoản"
       new_title: "Đăng ký"
     show:
-      alert_not_found: "Can't find user, new? Signup now!"
+      alert_not_found: "Bạn là người dùng mới? Đăng ký ngay"
+      micropost: "Micropost "
     edit:
       edit_user: "Chỉnh sửa tài khoản"
       edit_info: "Chỉnh sửa thông tin tài khoản của bạn"
@@ -91,6 +96,12 @@ vi:
     error_messages:
       form_contain: "Thông tin bạn điền có "
       error: " lỗi"
+    user_info:
+      view_profile: "Xem profile của tôi"
+      micropost: "bài đăng"
+    micropost_form:
+      compose: "Viết bài đăng mới..."
+      post: "Đăng"
   sessions:
     new:
       log_in: "Đăng nhập"
@@ -138,3 +149,14 @@ vi:
       confirm: "Xác nhận"
       update: "Cập nhật mật khẩu"
       reset_password: "Reset mật khẩu"
+  microposts:
+    create:
+      created: "Đã tạo bài viết mới!"
+    destroy:
+      deleted: "Đã xóa bài viết!"
+      delete_failed: "Đã xảy ra lỗi khi xóa"
+    micropost:
+      posted: "Đã đăng "
+      ago: " trước"
+      delete: "Xóa"
+      sure: "Bạn chắc không?"
