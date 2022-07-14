@@ -29,6 +29,16 @@ vi:
       new_header: "Form đăng ký"
       new_content: "Vui lòng đợi nó được hoàn thành!!!"
       new_signup: "Đây là trang đăng ký cho người dùng mới"
+      sign_up: "Đăng ký"
+      create_account: "Tạo tài khoản"
+      name: "Tên"
+      email: "Email"
+      password: "Mật khẩu"
+      password_confirmation: "Xác nhận mật khẩu"
+    create:
+      alert_success: "Chào mừng đến với Samle App!"
+    show:
+      alert_not_found: "Bạn là người dùng mới? Đăng ký ngay"
   layouts:
     header:
       title: "Sample App"
@@ -45,3 +55,7 @@ vi:
       contact: "Liên hệ"
       news: "Tin tức"
       author: Tác giả Micheal Hartl
+  shared:
+    error_messages:
+      form_contain: "Thông tin bạn điền có "
+      error: " lỗi"
