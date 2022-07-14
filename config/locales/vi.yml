@@ -70,5 +70,8 @@ vi:
       new_user?: "Bạn là người dùng mới? "
       sign_up_now!: "Hãy đăng ký ngay!"
       password: "Mật khẩu"
+      remember_me: "Ghi nhớ đăng nhập"
+      email: "Email"
     create:
-      invalid_email_password: "Email không hợp lệ!"
+      cannot_find_email: "Không tìm thấy tài khoản!"
+      invalid_email_password: "Sai mật khẩu!"
