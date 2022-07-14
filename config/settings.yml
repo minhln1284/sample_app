@@ -16,3 +16,7 @@ user:
   email_min: 20
   email_max: 255
   password_min: 6
+  gravatar_size: 80
+  gravatar_user_size: 50
+  gravatar: "https://gravatar.com/emails"
+  items: 25
