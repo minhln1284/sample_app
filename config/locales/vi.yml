@@ -53,7 +53,8 @@ vi:
     create:
       alert_success: "Chào mừng đến với Samle App!"
       alert_failed: "Đã xảy ra lỗi!"
-    find_user:
+      check_email: "Kiểm tra link kính hoạt trong hộp thư của bạn."
+    show:
       alert_not_found: "Bạn là người dùng mới? Đăng ký ngay"
     logged_in_user:
       log_in: "Xin hãy đăng nhập"
@@ -98,10 +99,40 @@ vi:
       password: "Mật khẩu"
       remember_me: "Ghi nhớ đăng nhập"
       email: "Email"
+      forgot_password: "Quên mật khẩu?"
     create:
       cannot_find_email: "Không tìm thấy tài khoản!"
       invalid_email_password: "Sai mật khẩu!"
+      message: "Tài khoản chưa được kích hoạt. Truy cập mail để kiểm tra mail xác thực"
   pagy:
     nav:
       next: "Trang kế"
       prev: "Trang trước"
+  account_activations:
+    edit:
+      account_activated: "Tài khoản đã được kích hoạt"
+      invalid_activation: "Link kích hoạt không tồn tại"
+  user_mailer:
+    hi: "Chào "
+    message: "Chào mừng đến với Sample App! Click vào link dưới để kích hoạt email của bạn:"
+    activate_mail: "Kích hoạt email của bạn"
+    account_activation: "Kích hoạt tài khoản"
+    password_reset: "Reset mật khẩu"
+    reset_message1: "Để reset lại mật khẩu click vào link bên dưới:"
+    reset_message2: "Link này sẽ hết hạn trong vòng 2 tiếng."
+    reset_message3: " Nếu bạn không yêu cầu reset mật khẩu, hãy mặc kệ email này và password của bạn sẽ được giữ nguyên"
+  password_resets:
+    check_expiration:
+      has_expired: "Reset mật khẩu đã hết hạn."
+    new:
+      forgot_password: "Quên mật khẩu"
+      submit: "Gửi"
+    create:
+      email_sent: "Đã gửi email hướng dẫn reset mật khẩu"
+      email_not_found: "Không tìm thấy địa chỉ email"
+    update:
+      cant_empty: "Không được để trống"
+      has_reset: "Mật khẩu đã được reset"
+    edit:
+      confirm: "Xác nhận"
+      update: "Cập nhật mật khẩu"
