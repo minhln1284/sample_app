@@ -1,0 +1,13 @@
+<footer class="footer">
+  <small>
+    <%= link_to t(".footer_info"), Settings.footer.tutorial, target: :_blank %>
+    <%= link_to t(".author"), Settings.footer.author, target: :_blank %>
+  </small>
+  <nav>
+    <ul>
+      <li><%= link_to t(".about"), about_path %></li>
+      <li><%= link_to t(".contact"), contact_path %></li>
+      <li><%= link_to t(".news"), Settings.footer.news, target: :_blank %></li>
+    </ul>
+  </nav>
+</footer>
