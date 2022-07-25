@@ -45,6 +45,11 @@ vi:
       home: "Trang chủ"
       help: "Trợ giúp"
       login: "Đăng nhập"
+      users: "Users"
+      account: "Tài khoản"
+      settings: "Cài đặt"
+      log_out: "Đăng xuất"
+      log_in: "Đăng nhập"
     application:
       base_title: "Ứng dụng mẫu Ruby On Rails"
       english: Tiếng Anh
@@ -59,3 +64,11 @@ vi:
     error_messages:
       form_contain: "Thông tin bạn điền có "
       error: " lỗi"
+  sessions:
+    new:
+      log_in: "Đăng nhập"
+      new_user?: "Bạn là người dùng mới? "
+      sign_up_now!: "Hãy đăng ký ngay!"
+      password: "Mật khẩu"
+    create:
+      invalid_email_password: "Email không hợp lệ!"

@@ -45,10 +45,15 @@ en:
       home: "Main page"
       help: "Help"
       login: "Login"
+      users: "Users"
+      account: "Account"
+      settings: "Settings"
+      log_out: "Log out"
+      log_in: "Log in"
     application:
       base_title: "Ruby on Rails Tutorial Sample App"
-      english: English
-      vietnamese: Vietnamese
+      english: "English"
+      vietnamese: "Vietnamese"
     footer:
       footer_info: "Ruby on Rails Tutorial"
       about: "About"
@@ -59,3 +64,11 @@ en:
     error_messages:
       form_contain: "This form contains "
       error: " error"
+  sessions:
+    new:
+      log_in: "Log in"
+      new_user: "New user? "
+      sign_up_now: "Sign up now!"
+      password: "Password"
+    create:
+      invalid_email_password: "Invalid email password combination!"
