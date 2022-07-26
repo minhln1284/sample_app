@@ -12,7 +12,9 @@
       <%= f.password_field :password, class: "form-control" %>
       <%= f.label t(".password_confirmation") %>
       <%= f.password_field :password_confirmation, class: "form-control" %>
-      <%= f.submit t(".create_account"), class: "btn btn-primary" %>
+      <div class = "form_submit_button" >
+        <%= f.submit t(".create_account"), class: "btn btn-primary" %>
+      </div>
     <% end %>
   </div>
 </div>
