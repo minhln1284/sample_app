@@ -14,9 +14,12 @@ class User < ApplicationRecord
             uniqueness: {case_sensitive: false}
 
   validates :password, presence: true,
-            length: {minimum: Settings.user.password_min}, if: :password
+            length: {minimum: Settings.user.password_min},
+            allow_nil: true
 
   has_secure_password
+
+  scope :latest_users, ->{order created_at: :desc}
 
   class << self
     def digest string
@@ -39,7 +42,7 @@ class User < ApplicationRecord
   end
 
   def authenticated? remember_token
-    return false if remember_digest.blank?
+    return false unless remember_digest
 
     BCrypt::Password.new(remember_digest).is_password? remember_token
   end

@@ -24,21 +24,47 @@ vi:
       contact_content: "Để có thêm thông tin, liên hệ tới"
       contact_target: "trang web tutorial"
   users:
-    new:
+    form:
       new_title: "Đăng ký"
       new_header: "Form đăng ký"
-      new_content: "Vui lòng đợi nó được hoàn thành!!!"
-      new_signup: "Đây là trang đăng ký cho người dùng mới"
-      sign_up: "Đăng ký"
-      create_account: "Tạo tài khoản"
       name: "Tên"
       email: "Email"
       password: "Mật khẩu"
       password_confirmation: "Xác nhận mật khẩu"
+    user:
+      delete: "Xoá"
+      sure: "Bạn chắc không?"
+      is_login: "Hãy đăng nhập"
+    new:
+      sign_up: "Đăng ký"
+      new_content: "Vui lòng đợi nó được hoàn thành!!!"
+      new_signup: "Đây là trang đăng ký cho người dùng mới"
+      create_account: "Tạo tài khoản"
+      new_title: "Đăng ký"
+    show:
+      alert_not_found: "Can't find user, new? Signup now!"
+    edit:
+      edit_user: "Chỉnh sửa tài khoản"
+      edit_info: "Chỉnh sửa thông tin tài khoản của bạn"
+      save_changes: "Lưu"
+      change: "Thay ảnh"
+    index:
+      all_users: "Danh sách người dùng"
     create:
       alert_success: "Chào mừng đến với Samle App!"
-    show:
+      alert_failed: "Đã xảy ra lỗi!"
+    find_user:
       alert_not_found: "Bạn là người dùng mới? Đăng ký ngay"
+    logged_in_user:
+      log_in: "Xin hãy đăng nhập"
+    correct_user:
+      not_found: "Không tìm thấy người dùng"
+    update:
+      profile_updated: "Cập nhật profile thành công!"
+      profile_update_failed: "Không thể cập nhật profile!"
+    destroy:
+      user_deleted: "Đã xóa tài khoản"
+      delete_failed: "Lỗi xảy ra khi xóa"
   layouts:
     header:
       title: "Sample App"
@@ -67,11 +93,15 @@ vi:
   sessions:
     new:
       log_in: "Đăng nhập"
-      new_user?: "Bạn là người dùng mới? "
-      sign_up_now!: "Hãy đăng ký ngay!"
+      new_user: "Bạn là người dùng mới? "
+      sign_up_now: "Hãy đăng ký ngay!"
       password: "Mật khẩu"
       remember_me: "Ghi nhớ đăng nhập"
       email: "Email"
     create:
       cannot_find_email: "Không tìm thấy tài khoản!"
       invalid_email_password: "Sai mật khẩu!"
+  pagy:
+    nav:
+      next: "Trang kế"
+      prev: "Trang trước"

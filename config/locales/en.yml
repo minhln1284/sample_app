@@ -24,21 +24,47 @@ en:
       contact_content: "More information, contact us"
       contact_target: "Contact page"
   users:
-    new:
+    form:
       new_title: "Signup"
       new_header: "Register Form"
-      new_content: "Comming soon!!!"
-      new_signup: "This will be a signup page for new users"
-      sign_up: "Sign up"
-      create_account: "Create my account"
       name: "Name"
       email: "Email"
       password: "Password"
       password_confirmation: "Password confirmation"
-    create:
-      alert_success: "Welcome to the Sample App!"
+    user:
+      delete: "Delete"
+      sure: "Are you sure?"
+      is_login: "Please log in"
+    new:
+      sign_up: "Sign up"
+      new_content: "Comming soon!!!"
+      new_signup: "This will be a signup page for new users"
+      create_account: "Create my account"
+      new_title: "Signup"
     show:
       alert_not_found: "Can't find user, new? Signup now!"
+    edit:
+      edit_user: "Edit user"
+      edit_info: "Edit your account info"
+      save_changes: "Save changes"
+      change: "Change"
+    index:
+      all_users: "All users"
+    create:
+      alert_success: "Welcome to the Sample App!"
+      alert_failed: "Create new account failed!"
+    find_user:
+      alert_not_found: "Can't find user, new? Signup now!"
+    logged_in_user:
+      log_in: "Please log in"
+    correct_user:
+      not_found: "User not found"
+    update:
+      profile_updated: "Profile updated!"
+      profile_update_failed: "Update profile failed!"
+    destroy:
+      user_deleted: "User deleted"
+      delete_failed: "Delete failed"
   layouts:
     header:
       title: "Sample App"
@@ -75,3 +101,7 @@ en:
     create:
       cannot_find_email: "Cannot find account!"
       invalid_email_password: "Invalid email password!"
+  pagy:
+    nav:
+      next: "Next"
+      prev: "Prev"
