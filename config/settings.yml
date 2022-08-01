@@ -20,3 +20,4 @@ user:
   gravatar_user_size: 50
   gravatar: "https://gravatar.com/emails"
   items: 25
+  time: 2

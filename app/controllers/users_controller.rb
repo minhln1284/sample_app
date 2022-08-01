@@ -21,7 +21,7 @@ class UsersController < ApplicationController
     if @user.save
       @user.send_activation_email
       flash[:info] = t ".check_email"
-      redirect_to login_url
+      redirect_to login_path
     else
       flash[:danger] = t ".alert_success"
       render :new
@@ -46,7 +46,7 @@ class UsersController < ApplicationController
     else
       flash[:danger] = t ".delete_failed"
     end
-    redirect_to users_url
+    redirect_to users_path
   end
 
   private
@@ -68,13 +68,13 @@ class UsersController < ApplicationController
 
     store_location
     flash[:danger] = t ".log_in"
-    redirect_to login_url
+    redirect_to login_path
   end
 
   def correct_user
     return if current_user? @user
 
     flash[:danger] = t ".not_found"
-    redirect_to root_url
+    redirect_to root_path
   end
 end

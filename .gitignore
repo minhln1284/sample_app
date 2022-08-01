@@ -47,5 +47,3 @@ config/credentials.yml.enc
 test/*
 
 config/application.yml
-app/views/user_mailer/password_reset.html.erb
-app/views/user_mailer/password_reset.text.erb
