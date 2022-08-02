@@ -21,3 +21,11 @@ user:
   gravatar: "https://gravatar.com/emails"
   items: 25
   time: 2
+micropost:
+  maximum: 140
+  item: 15
+  size: 50
+  image_size: "426x240"
+  accept_image: "image/jpeg,image/gif,image/png"
+  content_type: <%= %w(image/jpeg image/gif image/png) %>
+  file_size: 5

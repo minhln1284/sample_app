@@ -85,6 +85,5 @@ Rails.application.configure do
     :domain => ENV["MAIL_DOMAIN"],
     :port => ENV["MAIL_PORT"],
     :authentication => ENV["AUTH"]
-
   }
 end

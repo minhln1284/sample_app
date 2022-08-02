@@ -6,15 +6,16 @@ class UsersController < ApplicationController
   before_action :correct_user, only: %i(edit update)
 
   def index
-    @pagy, @users = pagy User.latest_users, page: params[:page],
-                                            items: Settings.user.items
+    @pagy, @users = pagy User.latest_users, items: Settings.user.item
   end
 
   def new
     @user = User.new
   end
 
-  def show; end
+  def show
+    @pagy, @users = pagy User.latest_users, items: Settings.micropost.item
+  end
 
   def create
     @user = User.new user_params
@@ -61,20 +62,5 @@ class UsersController < ApplicationController
 
   def user_params
     params.require(:user).permit(User::USER_ATTR)
-  end
-
-  def logged_in_user
-    return if logged_in?
-
-    store_location
-    flash[:danger] = t ".log_in"
-    redirect_to login_path
-  end
-
-  def correct_user
-    return if current_user? @user
-
-    flash[:danger] = t ".not_found"
-    redirect_to root_path
   end
 end
